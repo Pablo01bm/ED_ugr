@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classPilamax" kind="class" language="C++" prot="public">
+    <compoundname>Pilamax</compoundname>
+    <includes refid="Pilamax_8h" local="no">Pilamax.h</includes>
+    <innerclass refid="structPilamax_1_1Celda" prot="private">Pilamax::Celda</innerclass>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPilamax_1a2c3d418d73968c28a4927cd4b8e9cc94" prot="private" static="no" mutable="no">
+        <type>Celda *</type>
+        <definition>Celda* Pilamax&lt; T &gt;::primera</definition>
+        <argsstring></argsstring>
+        <name>primera</name>
+        <briefdescription>
+<para>Puntero al primer nodo de la lista. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="63" column="12" bodyfile="Pilamax.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPilamax_1a34a8730f7f61efb1649557e9570edcc9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pilamax&lt; T &gt;::num_elem</definition>
+        <argsstring></argsstring>
+        <name>num_elem</name>
+        <briefdescription>
+<para>N�mero de elementos de la pila. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="64" column="9" bodyfile="Pilamax.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPilamax_1ac89255f1df95e77d6da390d2a134c5bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pilamax&lt; T &gt;::Pilamax</definition>
+        <argsstring>()</argsstring>
+        <name>Pilamax</name>
+        <briefdescription>
+<para>Constructor por defecto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="71" column="5" bodyfile="Pilamax.h" bodystart="71" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1a31e33b2d58dc2c9f802cf7faa1f5f619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pilamax&lt; T &gt;::Pilamax</definition>
+        <argsstring>(const Pilamax&lt; T &gt; &amp;otra)</argsstring>
+        <name>Pilamax</name>
+        <param>
+          <type>const <ref refid="classPilamax" kindref="compound">Pilamax</ref>&lt; T &gt; &amp;</type>
+          <declname>otra</declname>
+        </param>
+        <briefdescription>
+<para>Constructor de copias. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>otra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La pila de la que se har� la copia. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="77" column="5" bodyfile="Pilamax.cpp" bodystart="14" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1ab13226ad9d149673adca728cb2d44b91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Pilamax&lt; T &gt;::~Pilamax</definition>
+        <argsstring>()</argsstring>
+        <name>~Pilamax</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="82" column="5" bodyfile="Pilamax.cpp" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1a478490b711e1b67176d0233577ef92d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classPilamax" kindref="compound">Pilamax</ref> &amp;</type>
+        <definition>Pilamax&lt; T &gt; &amp; Pilamax&lt; T &gt;::operator=</definition>
+        <argsstring>(const Pilamax&lt; T &gt; &amp;otra)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classPilamax" kindref="compound">Pilamax</ref>&lt; T &gt; &amp;</type>
+          <declname>otra</declname>
+        </param>
+        <briefdescription>
+<para>Operador de asignaci�n. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>otra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>La pila que se va a asignar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="88" column="13" bodyfile="Pilamax.cpp" bodystart="47" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1a66142c23b35d82830bc5e8efb8dac626" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pilamax&lt; T &gt;::vacia</definition>
+        <argsstring>() const</argsstring>
+        <name>vacia</name>
+        <briefdescription>
+<para>Comprueba si la pila est� vac�a. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="92" column="10" bodyfile="Pilamax.h" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1addbad4cdfcc0f30814b05f7828868b14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T&amp; Pilamax&lt; T &gt;::tope</definition>
+        <argsstring>()</argsstring>
+        <name>tope</name>
+        <briefdescription>
+<para>Devuelve el elemento del tope de la pila. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="98" column="7" bodyfile="Pilamax.h" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1a106db23a24e3e695845cedf3f16fa297" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T&amp; Pilamax&lt; T &gt;::tope</definition>
+        <argsstring>() const</argsstring>
+        <name>tope</name>
+        <briefdescription>
+<para>Devuelve el elemento del tope de una pila constante. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="105" column="14" bodyfile="Pilamax.h" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1a831e7c2a4c2630e6656b416468a2191a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pilamax&lt; T &gt;::poner</definition>
+        <argsstring>(const T &amp;elem)</argsstring>
+        <name>poner</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+<para>A�ade un elemento &quot;encima&quot; del tope de la pila. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento que se va a a�adir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="113" column="10" bodyfile="Pilamax.cpp" bodystart="75" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1ac3e8301b252f678773a31303659d93e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pilamax&lt; T &gt;::quitar</definition>
+        <argsstring>()</argsstring>
+        <name>quitar</name>
+        <briefdescription>
+<para>Quita el elemento del tope de la pila. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="117" column="10" bodyfile="Pilamax.cpp" bodystart="95" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classPilamax_1af1abd125c6df9780149a886dc91ec532" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pilamax&lt; T &gt;::num_elementos</definition>
+        <argsstring>() const</argsstring>
+        <name>num_elementos</name>
+        <briefdescription>
+<para>Devuelve el n�mero de elementos de la pila. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="121" column="9" bodyfile="Pilamax.h" bodystart="121" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>T.D.A. <ref refid="classPilamax" kindref="compound">Pilamax</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Una instancia <emphasis>v</emphasis> del tipo de datos abstracto Pila sobre el tipo <computeroutput>T</computeroutput> es una lista de elementos del mismo con un funcionamiento <emphasis>LIFO</emphasis> (Last In, First Out). En una pila, las operaciones de inserci�n y borrado de elementos tienen lugar en uno de los extremos denominado <emphasis>Tope</emphasis>. Una pila de longitud <emphasis>n</emphasis> la denotamos</para>
+<para><itemizedlist>
+<listitem><para>[a1,a2,a3,..,an&gt;</para>
+</listitem></itemizedlist>
+</para>
+<para>donde <emphasis>ai</emphasis> es el elemento de la posici�n i-�sima.</para>
+<para>En esta pila, tendremos acceso �nicamente al elemento del <emphasis>Tope</emphasis>, es decir, a <emphasis>an</emphasis>. El borrado o consulta de un elemento ser� sobre <emphasis>an</emphasis>, y la inserci�n de un nuevo elemento se har� sobre �ste. Quedando el elemento insertado como <emphasis>Tope</emphasis> de la pila.</para>
+<para>Si <emphasis>n=0</emphasis> diremos que la pila est� vac�a.</para>
+<para>El espacio requerido para el almacenamiento es O(n). Donde n es el n�mero de elementos de la Pila.</para>
+<para><simplesect kind="author"><para>J.Fdez-Valdivia. </para>
+</simplesect>
+<simplesect kind="date"><para>Octubre 2011 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="Pilamax.h" line="43" column="14" bodyfile="Pilamax.h" bodystart="43" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classPilamax_1a34a8730f7f61efb1649557e9570edcc9" prot="private" virt="non-virtual"><scope>Pilamax</scope><name>num_elem</name></member>
+      <member refid="classPilamax_1af1abd125c6df9780149a886dc91ec532" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>num_elementos</name></member>
+      <member refid="classPilamax_1a478490b711e1b67176d0233577ef92d0" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>operator=</name></member>
+      <member refid="classPilamax_1ac89255f1df95e77d6da390d2a134c5bf" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>Pilamax</name></member>
+      <member refid="classPilamax_1a31e33b2d58dc2c9f802cf7faa1f5f619" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>Pilamax</name></member>
+      <member refid="classPilamax_1a831e7c2a4c2630e6656b416468a2191a" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>poner</name></member>
+      <member refid="classPilamax_1a2c3d418d73968c28a4927cd4b8e9cc94" prot="private" virt="non-virtual"><scope>Pilamax</scope><name>primera</name></member>
+      <member refid="classPilamax_1ac3e8301b252f678773a31303659d93e5" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>quitar</name></member>
+      <member refid="classPilamax_1addbad4cdfcc0f30814b05f7828868b14" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>tope</name></member>
+      <member refid="classPilamax_1a106db23a24e3e695845cedf3f16fa297" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>tope</name></member>
+      <member refid="classPilamax_1a66142c23b35d82830bc5e8efb8dac626" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>vacia</name></member>
+      <member refid="classPilamax_1ab13226ad9d149673adca728cb2d44b91" prot="public" virt="non-virtual"><scope>Pilamax</scope><name>~Pilamax</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

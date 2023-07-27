@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="README_8txt" kind="file" language="C++">
+    <compoundname>README.txt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="README_8txt_1aea982b76b144d6b3b06c43d7bbae7317" prot="public" static="no" mutable="no">
+        <type>MODO DE</type>
+        <definition>MODO DE USO</definition>
+        <argsstring></argsstring>
+        <name>USO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="README.txt" line="1" column="13" bodyfile="README.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="README_8txt_1a43e1ac7289c7ffaac7dbc9ef314a0512" prot="public" static="no" mutable="no">
+        <type>MODO DE cambiar en include pila_max</type>
+        <definition>MODO DE cambiar en include pila_max h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="README.txt" line="2" column="28" bodyfile="README.txt" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="README_8txt_1a7fd084a4b43401ceffb86c6a24bc684e" prot="public" static="no" mutable="no">
+        <type>MODO DE cambiar en include pila_max la manera de</type>
+        <definition>MODO DE cambiar en include pila_max la manera de compilar</definition>
+        <argsstring></argsstring>
+        <name>compilar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="README.txt" line="2" column="43" bodyfile="README.txt" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="README_8txt_1ad60cd79342803e127ed8c57913932538" prot="public" static="no" mutable="no">
+        <type>MODO DE cambiar en include pila_max la manera de compilara con el fichero de cabecera pila_max_VD h Si es</type>
+        <definition>MODO DE cambiar en include pila_max la manera de compilara con el fichero de cabecera pila_max_VD h Si es CUAL_COMPILA</definition>
+        <argsstring></argsstring>
+        <name>CUAL_COMPILA</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="README.txt" line="4" column="8" bodyfile="README.txt" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="README_8txt_1aa9b021d0f80c4b6f9b36789eae89253b" prot="public" static="no" mutable="no">
+        <type>MODO DE cambiar en include pila_max la manera de compilara con el fichero de cabecera pila_max_VD h Si es u otro</type>
+        <definition>MODO DE cambiar en include pila_max la manera de compilara con el fichero de cabecera pila_max_VD h Si es u otro numero</definition>
+        <argsstring></argsstring>
+        <name>numero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="README.txt" line="4" column="29" bodyfile="README.txt" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="README_8txt_1ae1b0f96eeb567fa53670d6f3a3e06b9d" prot="public" static="no" mutable="no">
+        <type>MODO DE cambiar en include pila_max la manera de compilara con el fichero de cabecera pila_max_VD h Si es u otro compilara con el fichero de cabecera pila_max_cola h Una vez realizado este cambio</type>
+        <definition>MODO DE cambiar en include pila_max la manera de compilara con el fichero de cabecera pila_max_VD h Si es u otro compilara con el fichero de cabecera pila_max_cola h Una vez realizado este cambio procederemos</definition>
+        <argsstring></argsstring>
+        <name>procederemos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="README.txt" line="5" column="31" bodyfile="README.txt" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">MODO<sp/>DE<sp/>USO:</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">Para<sp/>compilar,<sp/>cambiar<sp/>en<sp/>include/pila_max.h,<sp/>la<sp/>manera<sp/>de<sp/>compilar:</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/>1)<sp/>Si<sp/>es<sp/>CUAL_COMPILA<sp/>=<sp/>1,<sp/>compilara<sp/>con<sp/>el<sp/>fichero<sp/>de<sp/>cabecera<sp/>pila_max_VD.h</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>2)<sp/>Si<sp/>es<sp/>CUAL_COMPILA<sp/>=<sp/>2,<sp/>u<sp/>otro<sp/>numero,<sp/>compilara<sp/>con<sp/>el<sp/>fichero<sp/>de<sp/>cabecera<sp/>pila_max_cola.h</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">Una<sp/>vez<sp/>realizado<sp/>este<sp/>cambio<sp/>procederemos,<sp/>hacer<sp/>un<sp/>make:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>1)<sp/>make<sp/>pila_max_vd<sp/>para<sp/>compilar<sp/>la<sp/>pila_max<sp/>con<sp/>vector<sp/>dinámico</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>2)<sp/>make<sp/>pila_max_cola<sp/>para<sp/>compilar<sp/>la<sp/>pila_max<sp/>con<sp/>cola</highlight></codeline>
+    </programlisting>
+    <location file="README.txt"/>
+  </compounddef>
+</doxygen>

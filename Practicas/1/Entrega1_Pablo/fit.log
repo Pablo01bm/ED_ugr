@@ -1,0 +1,85 @@
+
+
+*******************************************************************************
+Sat Oct  3 11:39:30 2020
+
+
+FIT:    data read from "ejecuciones_ordenacion.csh"
+        format = z
+BREAK: bad data on line 2 of datafile
+
+*******************************************************************************
+Sat Oct  3 11:41:04 2020
+
+
+FIT:    data read from "ejecuciones_ordenacion.csh"
+        format = z
+BREAK: bad data on line 2 of datafile
+
+*******************************************************************************
+Sat Oct  3 11:41:13 2020
+
+
+FIT:    data read from "ejecuciones_ordenacion.csh"
+        format = z
+BREAK: bad data on line 2 of datafile
+
+*******************************************************************************
+Sat Oct  3 11:41:59 2020
+
+
+FIT:    data read from "ejecuciones_ordenacion.csh"
+        format = z
+BREAK: bad data on line 2 of datafile
+
+*******************************************************************************
+Sat Oct  3 11:52:43 2020
+
+
+FIT:    data read from "tiempos_ordenacion.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= a*x*x+b*x+c
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Oct  3 11:52:47 2020
+
+
+FIT:    data read from "tiempos_ordenacion.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= a*x*x+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953916e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 1.0505001241e-01  -3.76e-07  2.29e-04    2.465398e-09  -6.534862e-06   2.049518e-02
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.10505
+rel. change during last iteration : -3.76173e-12
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.04293
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00184298
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.4654e-09       +/- 8.268e-11    (3.353%)
+b               = -6.53486e-06     +/- 2.538e-06    (38.83%)
+c               = 0.0204952        +/- 0.0163       (79.55%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 

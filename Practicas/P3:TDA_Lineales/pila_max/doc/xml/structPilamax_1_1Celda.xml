@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structPilamax_1_1Celda" kind="struct" language="C++" prot="private">
+    <compoundname>Pilamax::Celda</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPilamax_1_1Celda_1ab11eb3750aa1b6532c8c0d379f5ce408" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T Pilamax&lt; T &gt;::Celda::elemento</definition>
+        <argsstring></argsstring>
+        <name>elemento</name>
+        <briefdescription>
+<para>Elemento de informaci�n. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="46" column="9" bodyfile="Pilamax.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPilamax_1_1Celda_1a04f0c9286a16d82b450fc2d6d44e28fe" prot="public" static="no" mutable="no">
+        <type>Celda *</type>
+        <definition>Celda* Pilamax&lt; T &gt;::Celda::siguiente</definition>
+        <argsstring></argsstring>
+        <name>siguiente</name>
+        <briefdescription>
+<para>Puntero al siguiente nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="47" column="14" bodyfile="Pilamax.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structPilamax_1_1Celda_1a3b3d8b7cdafbdaa4af6ee440f102e6da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pilamax&lt; T &gt;::Celda::Celda</definition>
+        <argsstring>()</argsstring>
+        <name>Celda</name>
+        <briefdescription>
+<para>Constructor por defecto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="52" column="7" bodyfile="Pilamax.h" bodystart="52" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structPilamax_1_1Celda_1a642ec0aebd632a5691622d33949b9b1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pilamax&lt; T &gt;::Celda::Celda</definition>
+        <argsstring>(const T &amp;elem, Celda *sig)</argsstring>
+        <name>Celda</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>elem</declname>
+        </param>
+        <param>
+          <type>Celda *</type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+<para>Constructor con par�metros. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento de informaci�n. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sig</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Puntero al siguiente nodo. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Pilamax.h" line="59" column="7" bodyfile="Pilamax.h" bodystart="59" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Pilamax&lt; T &gt;::Celda</label>
+        <childnode refid="1" relation="usage">
+          <edgelabel>siguiente</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Pilamax.h" line="45" column="16" bodyfile="Pilamax.h" bodystart="45" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structPilamax_1_1Celda_1a3b3d8b7cdafbdaa4af6ee440f102e6da" prot="public" virt="non-virtual"><scope>Pilamax::Celda</scope><name>Celda</name></member>
+      <member refid="structPilamax_1_1Celda_1a642ec0aebd632a5691622d33949b9b1b" prot="public" virt="non-virtual"><scope>Pilamax::Celda</scope><name>Celda</name></member>
+      <member refid="structPilamax_1_1Celda_1ab11eb3750aa1b6532c8c0d379f5ce408" prot="public" virt="non-virtual"><scope>Pilamax::Celda</scope><name>elemento</name></member>
+      <member refid="structPilamax_1_1Celda_1a04f0c9286a16d82b450fc2d6d44e28fe" prot="public" virt="non-virtual"><scope>Pilamax::Celda</scope><name>siguiente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

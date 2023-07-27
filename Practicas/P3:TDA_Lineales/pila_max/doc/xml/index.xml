@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="structPilamax_1_1Celda" kind="struct"><name>Pilamax::Celda</name>
+    <member refid="structPilamax_1_1Celda_1ab11eb3750aa1b6532c8c0d379f5ce408" kind="variable"><name>elemento</name></member>
+    <member refid="structPilamax_1_1Celda_1a04f0c9286a16d82b450fc2d6d44e28fe" kind="variable"><name>siguiente</name></member>
+    <member refid="structPilamax_1_1Celda_1a3b3d8b7cdafbdaa4af6ee440f102e6da" kind="function"><name>Celda</name></member>
+    <member refid="structPilamax_1_1Celda_1a642ec0aebd632a5691622d33949b9b1b" kind="function"><name>Celda</name></member>
+  </compound>
+  <compound refid="classPilamax" kind="class"><name>Pilamax</name>
+    <member refid="classPilamax_1a2c3d418d73968c28a4927cd4b8e9cc94" kind="variable"><name>primera</name></member>
+    <member refid="classPilamax_1a34a8730f7f61efb1649557e9570edcc9" kind="variable"><name>num_elem</name></member>
+    <member refid="classPilamax_1ac89255f1df95e77d6da390d2a134c5bf" kind="function"><name>Pilamax</name></member>
+    <member refid="classPilamax_1a31e33b2d58dc2c9f802cf7faa1f5f619" kind="function"><name>Pilamax</name></member>
+    <member refid="classPilamax_1ab13226ad9d149673adca728cb2d44b91" kind="function"><name>~Pilamax</name></member>
+    <member refid="classPilamax_1a478490b711e1b67176d0233577ef92d0" kind="function"><name>operator=</name></member>
+    <member refid="classPilamax_1a66142c23b35d82830bc5e8efb8dac626" kind="function"><name>vacia</name></member>
+    <member refid="classPilamax_1addbad4cdfcc0f30814b05f7828868b14" kind="function"><name>tope</name></member>
+    <member refid="classPilamax_1a106db23a24e3e695845cedf3f16fa297" kind="function"><name>tope</name></member>
+    <member refid="classPilamax_1a831e7c2a4c2630e6656b416468a2191a" kind="function"><name>poner</name></member>
+    <member refid="classPilamax_1ac3e8301b252f678773a31303659d93e5" kind="function"><name>quitar</name></member>
+    <member refid="classPilamax_1af1abd125c6df9780149a886dc91ec532" kind="function"><name>num_elementos</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="Pilamax_8cpp" kind="file"><name>Pilamax.cpp</name>
+  </compound>
+  <compound refid="Pilamax_8h" kind="file"><name>Pilamax.h</name>
+  </compound>
+  <compound refid="README_8txt" kind="file"><name>README.txt</name>
+    <member refid="README_8txt_1aea982b76b144d6b3b06c43d7bbae7317" kind="variable"><name>USO</name></member>
+    <member refid="README_8txt_1a43e1ac7289c7ffaac7dbc9ef314a0512" kind="variable"><name>h</name></member>
+    <member refid="README_8txt_1a7fd084a4b43401ceffb86c6a24bc684e" kind="variable"><name>compilar</name></member>
+    <member refid="README_8txt_1ad60cd79342803e127ed8c57913932538" kind="variable"><name>CUAL_COMPILA</name></member>
+    <member refid="README_8txt_1aa9b021d0f80c4b6f9b36789eae89253b" kind="variable"><name>numero</name></member>
+    <member refid="README_8txt_1ae1b0f96eeb567fa53670d6f3a3e06b9d" kind="variable"><name>procederemos</name></member>
+  </compound>
+  <compound refid="usopilas_8cpp" kind="file"><name>usopilas.cpp</name>
+    <member refid="usopilas_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

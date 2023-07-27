@@ -1,0 +1,23 @@
+TDA REALIZADO POR: 
+
+Pablo Borrego Megías GII 2ºA
+
+Grupo:
+
+Practicas de ED, A 3
+
+REALIZADO EN SOLITARIO LOS EJERCICIOS 1 , 2 y 5
+----------------------------------------------------------
+EXPLICACION:
+SE HAN REALIZADO 3 MAINS DISTINTOS PARA CADA EJERCICIO, 
+PARA PODER POBRAR LOS EJERCICIOS MAS FACILMENTE
+
+
+
+-----------------------------------------------------------
+PROBLEMAS:
+PROBLEMAS EN EL MAKEFILE, SOLO CREA EL EJECUTABLE DEL MAIN 1, 
+LOS DEMAS MAIN SE HAN COMPILADO Y EJECUTADO POR SEPARADO Y SE
+HA PROBADO SU CORRECTO FUNCIONAMIENTO, EL UNICO ERROR ES EL MAKEFILE.
+
+______________________________________________________________

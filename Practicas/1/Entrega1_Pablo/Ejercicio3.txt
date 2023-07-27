@@ -1,0 +1,5 @@
+Utiliza el algoritmo búsqueda binaria, la particularidad de este algoritmo es que trabaja sobre un vector ordenado numéricamente en orden ascendente, en cambio se le pasa un vector con valores numéricos aleatorios, por eso a la hora de ejecutarlo y guardar los tiempos, lo mas probable es que nunca encuentre,  ya que le pasamos por argumento el elemento a encontrar el cual es tam+1, el cual ese elemento no va a estar contenido nunca en el vector, con lo cual nunca encontrá ese elemento, por eso se puede observar algo anormal en la eficiencia empírica. Es un caso que nunca se dará.
+
+
+
+Su eficiencia teórica en el peor de los casos tendrá que recorrer todo el vector con lo cual es O(n).Eficiencia práctica:Para corregir en programa invito a rellenar el vector ordenadamente o aplicar un algoritmo de ordenación pero esto alterara el orden del algoritmo, dependiendo de cual algoritmo de ordenación utilicemos. Con el vector ordenado el orden es de nlog(n).

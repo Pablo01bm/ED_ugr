@@ -1,0 +1,129 @@
+.TH "Pilamax< T >" 3 "Martes, 1 de Diciembre de 2020" "ClaseRacional" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Pilamax< T > \- T\&.D\&.A\&. \fBPilamax\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Pilamax\&.h>\fP
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBPilamax\fP ()"
+.br
+.RI "Constructor por defecto\&. "
+.ti -1c
+.RI "\fBPilamax\fP (const \fBPilamax\fP< T > &otra)"
+.br
+.RI "Constructor de copias\&. "
+.ti -1c
+.RI "\fB~Pilamax\fP ()"
+.br
+.RI "Destructor\&. "
+.ti -1c
+.RI "\fBPilamax\fP & \fBoperator=\fP (const \fBPilamax\fP< T > &otra)"
+.br
+.RI "Operador de asignaci�n\&. "
+.ti -1c
+.RI "bool \fBvacia\fP () const"
+.br
+.RI "Comprueba si la pila est� vac�a\&. "
+.ti -1c
+.RI "T & \fBtope\fP ()"
+.br
+.RI "Devuelve el elemento del tope de la pila\&. "
+.ti -1c
+.RI "const T & \fBtope\fP () const"
+.br
+.RI "Devuelve el elemento del tope de una pila constante\&. "
+.ti -1c
+.RI "void \fBponer\fP (const T &elem)"
+.br
+.RI "A�ade un elemento 'encima' del tope de la pila\&. "
+.ti -1c
+.RI "void \fBquitar\fP ()"
+.br
+.RI "Quita el elemento del tope de la pila\&. "
+.ti -1c
+.RI "int \fBnum_elementos\fP () const"
+.br
+.RI "Devuelve el n�mero de elementos de la pila\&. "
+.in -1c
+.SH "Descripción detallada"
+.PP 
+
+.SS "template<class T>
+.br
+class Pilamax< T >"
+T\&.D\&.A\&. \fBPilamax\fP\&. 
+
+Una instancia \fIv\fP del tipo de datos abstracto Pila sobre el tipo \fCT\fP es una lista de elementos del mismo con un funcionamiento \fILIFO\fP (Last In, First Out)\&. En una pila, las operaciones de inserci�n y borrado de elementos tienen lugar en uno de los extremos denominado \fITope\fP\&. Una pila de longitud \fIn\fP la denotamos
+.PP
+.IP "\(bu" 2
+[a1,a2,a3,\&.\&.,an>
+.PP
+.PP
+donde \fIai\fP es el elemento de la posici�n i-�sima\&.
+.PP
+En esta pila, tendremos acceso �nicamente al elemento del \fITope\fP, es decir, a \fIan\fP\&. El borrado o consulta de un elemento ser� sobre \fIan\fP, y la inserci�n de un nuevo elemento se har� sobre �ste\&. Quedando el elemento insertado como \fITope\fP de la pila\&.
+.PP
+Si \fIn=0\fP diremos que la pila est� vac�a\&.
+.PP
+El espacio requerido para el almacenamiento es O(n)\&. Donde n es el n�mero de elementos de la Pila\&.
+.PP
+\fBAutor\fP
+.RS 4
+J\&.Fdez-Valdivia\&. 
+.RE
+.PP
+\fBFecha\fP
+.RS 4
+Octubre 2011 
+.RE
+.PP
+
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "template<class T > \fBPilamax\fP< T >::\fBPilamax\fP (const \fBPilamax\fP< T > & otra)"
+
+.PP
+Constructor de copias\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIotra\fP La pila de la que se har� la copia\&. 
+.RE
+.PP
+
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "template<class T > \fBPilamax\fP< T > & \fBPilamax\fP< T >::operator= (const \fBPilamax\fP< T > & otra)"
+
+.PP
+Operador de asignaci�n\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIotra\fP La pila que se va a asignar\&. 
+.RE
+.PP
+
+.SS "template<class T > void \fBPilamax\fP< T >::poner (const T & elem)"
+
+.PP
+A�ade un elemento 'encima' del tope de la pila\&. 
+.PP
+\fBParámetros\fP
+.RS 4
+\fIelem\fP Elemento que se va a a�adir\&. 
+.RE
+.PP
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para ClaseRacional del código fuente\&.
